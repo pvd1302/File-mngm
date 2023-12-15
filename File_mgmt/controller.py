@@ -101,7 +101,7 @@ class File_mgmt(File):
             "updated_at": datetime.utcnow(),
         }
         file_collection.insert_one(data_insert)
-        Delete_redis_keys_with_prefix(f'file')
+        Delete_redis_keys_with_prefix(f'files_{self.username}')
 
         return jsonify({"message": "File created successfully"}), 201
 

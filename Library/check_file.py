@@ -88,7 +88,6 @@ def infor_file(file):
             return jsonify({"message": "File's format not satisfied !"}), 404
     if real_format.lower() in ['png', 'jpg']:
         img = Image.open(file)
-
         # Lấy độ phân giải
         width, height = img.size
         resolution = f"{width} x {height} px"

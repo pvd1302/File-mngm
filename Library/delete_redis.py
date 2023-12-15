@@ -19,5 +19,5 @@ def Delete_redis_keys_with_prefix(prefix):
         r.delete(key)
 
 
-# Sử dụng hàm để xóa các key có tiền tố "users_karina11"
-# delete_redis_keys_with_prefix('users_karina11')
+# Sử dụng hàm để xóa các key có tiền tố "files_karina1104"
+# Delete_redis_keys_with_prefix('files_karina1104')
