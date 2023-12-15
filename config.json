@@ -1,0 +1,7 @@
+{
+    "ALLOWED_EXTENSIONS": ["png", "jpg", "docx", "xlsx"],
+    "UPLOAD_FOLDER": "D:\\python flask API\\file management\\data",
+    "MAX_CONTENT_LENGTH_MB": 2,
+    "file_media" : ["png", "jpg"],
+    "file_application" : ["docx", "xlsx"]
+}
